@@ -1,0 +1,32 @@
+{
+  "title_id": "000400000F7A3300",
+  "version": "1.1.1",
+  "arm_load_segments_matched": 3,
+  "declared_svc_checks": 25,
+  "content_and_section_hashes": "passed",
+  "home_title": "万砖齐发",
+  "ndsp_writable_mappings": [
+    "0x1FF50000-0x1FF57FFF",
+    "0x1FF70000-0x1FF77FFF"
+  ],
+  "official_signature": "not present; 3 expected homebrew signature warnings",
+  "device_or_emulator_test": "not performed",
+  "artifacts": {
+    "many-bricks-3ds.cia": {
+      "bytes": 241600,
+      "sha256": "d66fecb150c4db2f253a4d7eceff2ba0b651e82f82008d6d5137bcb4de79b7ce"
+    },
+    "many-bricks-3ds.3dsx": {
+      "bytes": 276332,
+      "sha256": "c745c6accaa000ed3fc23eef314dad4d4747649d8c77f1ca18d1277acd19caad"
+    },
+    "many-bricks-3ds.smdh": {
+      "bytes": 14016,
+      "sha256": "8ad1e9141482c03a4e48643e091d0e004967345f9bb595dbff773d830d82dcdf"
+    },
+    "many-bricks-3ds.elf": {
+      "bytes": 1786692,
+      "sha256": "8c45a267cb3fe207e5ca1b010c498826bec234242f0e0c1b1e970b3e6551e259"
+    }
+  }
+}

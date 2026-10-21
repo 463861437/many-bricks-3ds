@@ -1,0 +1,55 @@
+万砖齐发 · Many Bricks 3DS 1.1.1
+开源项目：https://github.com/463861437/many-bricks-3ds
+下载：https://github.com/463861437/many-bricks-3ds/releases/latest
+
+【CIA 安装】
+设备需已具备运行和安装自制软件的环境。
+1. 下载 CIA 或解压安装包，将 CIA 放到 SD:/cias/。
+2. 退出游戏及文件传输程序。
+3. FBI → SD → cias → 选中 CIA → Install CIA。
+4. 回 HOME 菜单打开“万砖齐发”。
+Release 的版本化文件名与安装包内 many-bricks-3ds.cia 均可安装。
+Title ID：000400000F7A3300（项目自选，非官方注册编号）。
+
+【覆盖升级与存档】
+已有旧版可直接覆盖安装，无需先卸载。更新前可备份整个目录：
+SD:/3ds/many-bricks-3ds/
+存档为 progress0.bin 和 progress1.bin，两份轮流更新。
+退出游戏后同时备份或恢复两份文件。不要删除此目录来更新程序。
+兼容旧版 36 关存档，保留解锁、成绩和设置。旧进度到第 36 关时，
+再次通过该关可解锁第 37 关；新增关卡成绩初始为零。
+存档不保存进行中的球、砖墙及机会。新版存档不保证可被旧版读取。
+
+【Homebrew Launcher】
+将 many-bricks-3ds.3dsx 与 many-bricks-3ds.smdh 放在：
+SD:/3ds/many-bricks-3ds/
+从 Homebrew Launcher 启动。CIA 与 3DSX 共用存档。
+游戏离线运行，无需商业 ROM 或额外资源目录。
+
+【操作】
+下屏触控区拖动、摇杆或十字键左右控制挡板。
+A 发球；START/B 暂停；暂停时 A 继续、B 选关。
+首页 A 开始、B 选关、X 音效、Y 标准/宽松模式。
+选关：方向键选择，A 进入，L/R 翻页，B 返回首页。
+SELECT 打开退出确认；A 确认，B 取消。
+HOME/合盖恢复后需确认继续；切换画面后先松手再操作。
+进入选关或首页会结束当前局，重新进入从该关开头开始。
+
+【玩法】
+108 个原创关卡，9 类固定反弹墙，每关 2,614–3,238 块正方形砖。
+每关三次机会，所有球落底才扣一次，清除全部砖块即可过关。
+最多 256 球；挡板接住道具后获得分裂、加长、穿透或慢速。
+围墙不可破坏、不计入清场，穿透球仍会撞墙；无底部保护墙。
+标准/宽松模式共用成绩与解锁，宽松模式挡板更宽、球速更低。
+音频服务不可用时无声运行，包内不含 DSP 固件。
+
+【本版状态】
+1.1.1 修复挡板迟接、擦边及移动路径上的下降球漏接。
+电脑回归测试及 CIA 内容校验通过，接球修复尚待真机复验。
+预览图由电脑运行游戏逻辑与绘图代码生成，不是真机截图。
+
+详细玩法：README.md
+构建：docs/BUILDING.md；架构：docs/ARCHITECTURE.md
+问题处理：docs/TROUBLESHOOTING.md；实测边界：VALIDATION.md
+问题反馈：https://github.com/463861437/many-bricks-3ds/issues
+许可：GPL-3.0-or-later，见 LICENSE 与 THIRD_PARTY.md。
