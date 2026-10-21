@@ -86,9 +86,12 @@ void text(Canvas& c,int x,int y,const char* s,Color color=WHITE,int maxWidth=400
     const int end=x+maxWidth;
     while(*s&&x<end){const FontGlyph* g=glyph(decode(s));if(!g)continue;
         if(x+g->width*scale>end)break;
-        for(int gy=0;gy<14;++gy)for(int gx=0;gx<g->width;++gx){const uint8_t a=g->alpha[gy*14+gx];if(!a)continue;
-            for(int sy=0;sy<scale;++sy)for(int sx=0;sx<scale;++sx)c.pixel(x+gx*scale+sx,y+gy*scale+sy,color,a);
-        }x+=g->width*scale;
+        for(int gy=0;gy<14;++gy) {
+            for(int gx=0;gx<g->width;++gx){const uint8_t a=g->alpha[gy*14+gx];if(!a)continue;
+                for(int sy=0;sy<scale;++sy)for(int sx=0;sx<scale;++sx)c.pixel(x+gx*scale+sx,y+gy*scale+sy,color,a);
+            }
+        }
+        x+=g->width*scale;
     }
 }
 void centered(Canvas& c,Rect r,const char* s,Color color=WHITE,int scale=1){text(c,r.x+std::max(0,(r.w-width(s,scale))/2),r.y+(r.h-14*scale)/2,s,color,r.w,scale);}

@@ -14,7 +14,7 @@
   "artifacts": {
     "many-bricks-3ds.cia": {
       "bytes": 241600,
-      "sha256": "d66fecb150c4db2f253a4d7eceff2ba0b651e82f82008d6d5137bcb4de79b7ce"
+      "sha256": "a9a210533c39e7541ebf65a897f12de36e9674534832cd67683fddf5412a115a"
     },
     "many-bricks-3ds.3dsx": {
       "bytes": 276332,
@@ -25,8 +25,8 @@
       "sha256": "8ad1e9141482c03a4e48643e091d0e004967345f9bb595dbff773d830d82dcdf"
     },
     "many-bricks-3ds.elf": {
-      "bytes": 1786692,
-      "sha256": "8c45a267cb3fe207e5ca1b010c498826bec234242f0e0c1b1e970b3e6551e259"
+      "bytes": 1786712,
+      "sha256": "c7460a5be82adf802c5f66f3b2f3de8b798b8350c19c9e4c23116de49c99f746"
     }
   }
 }

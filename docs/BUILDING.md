@@ -12,7 +12,7 @@
 | 电脑端测试 | 支持 C++17、ASan、UBSan 的 Clang 或 GCC |
 | 预览/重新生成字体与图片 | Python 3、Pillow；生成字体另需 Noto Sans SC 字体文件 |
 
-已验证环境为 macOS arm64，devkitARM GCC **16.1.0**、libctru **2.7.0**、makerom **0.18.4**、bannertool **1.2.0**、ctrtool **1.3.0**。其他工具版本和操作系统没有同等实测记录；这不是最低版本兼容性承诺。工具链不包含在仓库中。
+已验证环境为 macOS arm64，devkitARM GCC **16.1.0**、libctru **2.7.0**、makerom **0.18.4**、bannertool **1.2.0**、ctrtool **1.3.0**。其他工具版本和原生交叉编译平台没有同等实测记录；这不是最低版本兼容性承诺。工具链不包含在仓库中。
 
 ### 安装 devkitPro 工具链
 
